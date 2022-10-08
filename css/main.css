@@ -1,0 +1,57 @@
+/* 定义导航动画 */
+@keyframes 导航 {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: #66CCFF;
+    }
+}
+
+body {
+    font-size: 100% ;
+}
+
+h1 {
+    font-size: 24px ;
+}
+
+h2 {
+    font-size: 20px ;
+}
+
+p {
+    font-size: 16px ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li {
+    float: left;
+    background-color: white;
+    height: 50;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    /* animation-name: 导航;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-direction: reverse; */
+}
+
+li a:hover {
+    background-color: #66CCFF;
+    color: black;
+    animation-name: 导航;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+}
